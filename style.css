@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    border-collapse: double;
+} /*Define o tamanho da tabela inteira pela porcentagem e define de qual forma seja a borda*/
+h2{
+  background-color:pink;
+  padding: 5px;
+  text-align: center;/*Definição de cor, tamanho e em qual centro da tela ira ficar */
+}
+th, td {
+    border: 1px solid;
+    padding: 8px;
+    text-align: left;
+} /*Definição da grossura da borda, tamanho e direção do texto*/
+
+th {
+    background-color: pink;
+} /*  Define a cor de fundo do subtitulo da tabela */
+
+img {
+    max-width: 100px;
+} /* Define o tamanho das imagens*/
+body {
+  font-family: 'Didot', 'Serif', sans-serif;
+} /*Define a fonte escolhida*/
